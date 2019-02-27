@@ -1,5 +1,5 @@
 workspace 'JDSwift.xcworkspace' #main workspace
-project 'JDSwiftDemo/JDSwiftDemo.xcodeproj' # main project path
+project 'JDSwiftDemo/JDSwiftDemo.xcodeproj' #main project path
 
 use_frameworks!
 
