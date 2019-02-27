@@ -1,0 +1,6 @@
+framework module Pods_JDRxSwfit {
+  umbrella header "Pods-JDRxSwfit-umbrella.h"
+
+  export *
+  module * { export * }
+}

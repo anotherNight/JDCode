@@ -1,0 +1,29 @@
+workspace 'JDSwift.xcworkspace' #main workspace
+project 'JDSwiftDemo/JDSwiftDemo.xcodeproj' # main project path
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JDSwiftDemo' do 
+
+  project 'JDSwiftDemo/JDSwiftDemo.xcodeproj'
+  pod 'SnapKit'
+
+end
+
+target 'JDRealm' do 
+
+  project 'JDRealm/JDRealm.xcodeproj'
+  pod 'SnapKit'
+
+end
+
+target 'JDRxSwfit' do 
+
+  project 'JDRxSwfit/JDRxSwfit.xcodeproj'
+  pod 'SnapKit'
+
+end
+
+
